@@ -1,7 +1,5 @@
 # Project Plan
 
-**Author**: \<Team59 - Fan Wu, Feng Yang, Oran Wallace, Victor Bajenaru>
-
 ## 1 Introduction
 
 This Android app will allow users to solve cryptogram puzzles and view how well they are doing against other users on the platform.  The Administrator of the app will be able to create users, set the user difficulty levels, and create cryptograms.
