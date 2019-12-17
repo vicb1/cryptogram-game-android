@@ -1,8 +1,8 @@
 # cryptogram-game-android
 
 This was a project developed for the following class where software architecture and testing was covered, and this was the final project.
-    - [Course description](https://www.omscs.gatech.edu/cs-6300-software-development-process)
-    - [Udacity lectures](https://classroom.udacity.com/courses/ud805)
+- [Course description](https://www.omscs.gatech.edu/cs-6300-software-development-process)
+- [Udacity lectures](https://classroom.udacity.com/courses/ud805)
 
 See this root folder for documents used to plan this project.  Additionally, see below for instructions on how to run the Android game and the user manual on how to use it.
 
