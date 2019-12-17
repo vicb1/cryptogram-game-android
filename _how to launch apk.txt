@@ -1,3 +1,0 @@
-1. run Android Virtual Device in Android Studio
-2. drag and drop the .apk file onto the simulator screen
-3. look for the app Crypto6300 in the listing of all apps
