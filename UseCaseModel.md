@@ -1,7 +1,5 @@
 # Use Case Model
 
-**Author**: \<Team59 - Fan Wu, Feng Yang, Oran Wallace, Victor Bajenaru>
-
 ## 1 Use Case Diagram
 
 ![altText](./images/Use_Case_Diagram.png)
