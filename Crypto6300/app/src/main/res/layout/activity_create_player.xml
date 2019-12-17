@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_orange"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="332dp"
+        android:layout_height="172dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_player_title">
+
+        <TextView
+            android:id="@+id/create_player_label_fn"
+            android:layout_width="0dp"
+            android:layout_height="33dp"
+            android:layout_marginHorizontal="@dimen/horizontal_padding"
+            android:layout_marginVertical="@dimen/vertical_padding"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="First Name:"
+            android:textColor="@color/color_black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/create_player_txt_fn"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="20sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/create_player_label_fn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/create_player_label_fn" />
+
+        <TextView
+            android:id="@+id/create_player_label_ln"
+            android:layout_width="0dp"
+            android:layout_height="33dp"
+            android:layout_marginHorizontal="@dimen/horizontal_padding"
+            android:layout_marginVertical="@dimen/vertical_padding"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text="Last Name:"
+            android:textColor="@color/color_black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/create_player_label_fn" />
+
+        <EditText
+            android:id="@+id/create_player_txt_ln"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="20sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/create_player_label_ln"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/create_player_label_ln" />
+
+        <TextView
+            android:id="@+id/create_player_label_un"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="@dimen/horizontal_padding"
+            android:layout_marginVertical="@dimen/vertical_padding"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text="Username:"
+            android:textColor="@color/color_black"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/create_player_label_ln" />
+
+        <EditText
+            android:id="@+id/create_player_txt_un"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="20sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/create_player_label_un"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/create_player_label_un" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/create_player_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/horizontal_padding"
+        android:layout_marginVertical="@dimen/vertical_padding"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/add_a_new_player"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/large_font"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <TextView
+            android:id="@+id/create_player_label_diff"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="@dimen/horizontal_padding"
+            android:layout_marginVertical="@dimen/vertical_padding"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Difficulty Category:"
+            android:textColor="@color/color_black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="127dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toEndOf="@+id/create_player_label_diff"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <RadioButton
+                android:id="@+id/create_player_rb_easy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/color_black"
+                android:checked="true"
+                android:text="Easy"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/create_player_rb_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/color_black"
+                android:text="Normal"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/create_player_rb_hard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/color_black"
+                android:text="Hard"
+                android:textSize="24sp" />
+        </RadioGroup>
+    </android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/create_player_btn_save"
+        android:layout_width="208dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/button_background"
+        android:onClick="savePlayer"
+        android:text="Save"
+        android:textColor="@color/color_orange"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

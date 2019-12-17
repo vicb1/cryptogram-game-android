@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_orange"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/game_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/vertical_padding"
+        android:layout_marginHorizontal="@dimen/horizontal_padding"
+        android:textColor="@color/color_white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/large_font" />
+
+    <TextView
+        android:id="@+id/game_attempts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/vertical_padding"
+        android:layout_marginHorizontal="@dimen/horizontal_padding"
+        android:textColor="@color/color_black"
+        android:gravity="center"
+        android:textSize="@dimen/small_font" />
+
+    <TextView
+        android:id="@+id/game_encrypted_phrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/vertical_padding"
+        android:layout_marginHorizontal="@dimen/horizontal_padding"
+        android:text="@string/login_title"
+        android:textColor="@color/color_black"
+        android:gravity="center"
+        android:textSize="@dimen/large_font" />
+
+    <EditText
+        android:id="@+id/game_input"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_button_height"
+        android:layout_marginVertical="@dimen/vertical_padding"
+        android:layout_marginHorizontal="@dimen/horizontal_padding"
+        android:textColor="@color/color_black"
+        android:inputType="text"
+        android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:padding="@dimen/space_small"
+        android:textSize="@dimen/large_font" />
+
+    <Button
+        android:id="@+id/save_and_quit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_button_height"
+        android:background="@drawable/button_background"
+        android:layout_marginVertical="@dimen/vertical_padding"
+        android:layout_marginHorizontal="@dimen/horizontal_padding"
+        android:text="@string/save_and_quit"
+        android:textColor="@color/color_orange"
+        android:textStyle="bold"
+        android:textSize="@dimen/button_font" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_button_height"
+        android:background="@drawable/button_background"
+        android:layout_marginVertical="@dimen/vertical_padding"
+        android:layout_marginHorizontal="@dimen/horizontal_padding"
+        android:text="@string/submit"
+        android:textColor="@color/color_orange"
+        android:textStyle="bold"
+        android:textSize="@dimen/button_font" />
+
+</LinearLayout>

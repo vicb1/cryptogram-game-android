@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/unsolved_cryptogram_view"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/login_button_height"
+    android:background="@drawable/button_background"
+    android:gravity="center"
+    android:layout_marginVertical="@dimen/vertical_padding"
+    android:layout_marginHorizontal="@dimen/horizontal_padding"
+    android:textStyle="bold"
+    android:textSize="@dimen/medium_font" />

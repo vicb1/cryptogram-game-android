@@ -1,0 +1,1 @@
+For APK file, run command From menu Build-> Build Bundles/APKs->Build APK. You will find APK file in folder app/build/outputs/apk/debug

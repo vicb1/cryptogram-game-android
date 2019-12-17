@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cryptogram_list_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_orange"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cryptogram_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/vertical_padding"
+        android:layout_marginHorizontal="@dimen/horizontal_padding"
+        android:text="@string/cryptograms_list"
+        android:textColor="@color/color_white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/large_font" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/unsolved_cryptogram_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
+
+</LinearLayout>

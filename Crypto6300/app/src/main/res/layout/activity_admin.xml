@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_orange"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/hello_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/vertical_padding"
+        android:layout_marginHorizontal="@dimen/horizontal_padding"
+        android:text="@string/hello_admin"
+        android:textColor="@color/color_white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/large_font" />
+
+    <Button
+        android:id="@+id/play_stats_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_button_height"
+        android:background="@drawable/button_background"
+        android:layout_marginVertical="@dimen/vertical_padding"
+        android:layout_marginHorizontal="@dimen/horizontal_padding"
+        android:text="@string/player_statistics"
+        android:textColor="@color/color_orange"
+        android:textStyle="bold"
+        android:textSize="@dimen/button_font" />
+
+    <Button
+        android:id="@+id/add_new_player_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_button_height"
+        android:background="@drawable/button_background"
+        android:layout_marginVertical="@dimen/vertical_padding"
+        android:layout_marginHorizontal="@dimen/horizontal_padding"
+        android:text="@string/add_a_new_player"
+        android:textColor="@color/color_orange"
+        android:textStyle="bold"
+        android:textSize="@dimen/button_font" />
+
+    <Button
+        android:id="@+id/add_new_cryptogram_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_button_height"
+        android:background="@drawable/button_background"
+        android:layout_marginVertical="@dimen/vertical_padding"
+        android:layout_marginHorizontal="@dimen/horizontal_padding"
+        android:text="@string/add_a_new_cryptogram"
+        android:textColor="@color/color_orange"
+        android:textStyle="bold"
+        android:textSize="@dimen/button_font" />
+
+</LinearLayout>
