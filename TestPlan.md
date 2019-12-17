@@ -2,8 +2,6 @@
 
 Version 3 - added Actual Results in the Test Cases section, modified Adequacy Criterion
 
-**Author**: \<Team59 - Fan Wu, Feng Yang, Oran Wallace, Victor Bajenaru>
-
 ## 1 Testing Strategy
 
 ### 1.1 Overall Strategy
