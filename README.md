@@ -4,13 +4,14 @@ This was a project developed for the following class where software architecture
     - [Course description](https://www.omscs.gatech.edu/cs-6300-software-development-process)
     - [Udacity lectures](https://classroom.udacity.com/courses/ud805)
 
+See this root folder for documents used to plan this project.  Additionally, see below for instructions on how to run the Android game and the user manual on how to use it.
 
 ## How to launch Android app:
 1. run Android Virtual Device in Android Studio
 2. drag and drop the .apk file in the root directory onto the simulator screen
 3. look for the app Crypto6300 in the listing of all apps
 
-## How to export .apk file:
+## How to export .apk file after making any changes:
 1. run command From menu Build-> Build Bundles/APKs->Build APK
 2. You will find APK file in folder app/build/outputs/apk/debug
 
