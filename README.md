@@ -1,6 +1,6 @@
 # cryptogram-game-android
 
-This was a project developed for the following class where software architecture and testing was covered, and this was the final project.
+This was a project developed for the following class where software architecture and testing of Java and Android were covered, and this was the final project.
 - [Course description](https://www.omscs.gatech.edu/cs-6300-software-development-process)
 - [Udacity lectures](https://classroom.udacity.com/courses/ud805)
 
