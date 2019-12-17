@@ -1,7 +1,5 @@
 # Design Document
 
-**Author**: \<Team59 - Fan Wu, Feng Yang, Oran Wallace, Victor Bajenaru>
-
 ## 1 Design Considerations
 
 ### 1.1 Assumptions
