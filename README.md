@@ -4,7 +4,9 @@ This was a project developed for the following class where software architecture
 - [Course description](https://www.omscs.gatech.edu/cs-6300-software-development-process)
 - [Udacity lectures](https://classroom.udacity.com/courses/ud805)
 
-See this root folder for documents used to plan this project.  Additionally, see below for instructions on how to run the Android game and the user manual on how to use it.
+See the "architecture-and-testing-plans" folder root folder for architecture/testing documents used to plan this project.  
+
+Additionally, see below for instructions on how to run the Android game and the user manual on how to use it.
 
 ## How to launch Android app:
 1. run Android Virtual Device in Android Studio
