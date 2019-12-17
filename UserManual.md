@@ -1,7 +1,5 @@
 # User Manual
 
-**Author**: \<Team59 - Fan Wu, Feng Yang, Oran Wallace, Victor Bajenaru>
-
 ## 1. Description
 Cryptogram is a game where a common word or phrase is encrypted and the player wins a game by decoding the encrypted phrase. 
 
